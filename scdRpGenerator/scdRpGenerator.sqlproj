@@ -75,6 +75,12 @@
       <Private>True</Private>
       <SuppressMissingDependenciesErrors>False</SuppressMissingDependenciesErrors>
     </ProjectReference>
+    <ProjectReference Include="..\scdRpSourceView\scdRpSourceView.sqlproj">
+      <Name>scdRpSourceView</Name>
+      <Project>{5af48c0c-b815-4282-b27f-0dbcffabe019}</Project>
+      <Private>True</Private>
+      <SuppressMissingDependenciesErrors>False</SuppressMissingDependenciesErrors>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <Build Include="Security\dimensionRPSchema.sql" />
