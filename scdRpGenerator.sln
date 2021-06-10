@@ -7,6 +7,8 @@ Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "scdRpGenerator", "scdRpGene
 EndProject
 Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "scdType6Dimension", "scdType6Dimension\scdType6Dimension.sqlproj", "{CA3004E5-8E69-4FE4-AA79-EDE61F7F43A7}"
 EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "scdRpSourceView", "scdRpSourceView\scdRpSourceView.sqlproj", "{5AF48C0C-B815-4282-B27F-0DBCFFABE019}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,6 +27,12 @@ Global
 		{CA3004E5-8E69-4FE4-AA79-EDE61F7F43A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CA3004E5-8E69-4FE4-AA79-EDE61F7F43A7}.Release|Any CPU.Build.0 = Release|Any CPU
 		{CA3004E5-8E69-4FE4-AA79-EDE61F7F43A7}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{5AF48C0C-B815-4282-B27F-0DBCFFABE019}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5AF48C0C-B815-4282-B27F-0DBCFFABE019}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5AF48C0C-B815-4282-B27F-0DBCFFABE019}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{5AF48C0C-B815-4282-B27F-0DBCFFABE019}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5AF48C0C-B815-4282-B27F-0DBCFFABE019}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5AF48C0C-B815-4282-B27F-0DBCFFABE019}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
