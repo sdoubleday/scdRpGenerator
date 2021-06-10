@@ -83,7 +83,10 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Build Include="Security\dimensionRPSchema.sql" />
+    <Build Include="Security\dimensionRpSchema.sql" />
     <Build Include="dimensionRPSchema\Tables\templateDimCoreName_dim_dimRpName.sql" />
+    <Build Include="dimensionRPSchema\Stored Procedures\templateDimCoreName_dim_dimRpName_Synchronize_usp.sql" />
+    <Build Include="dimensionRPSchema\Stored Procedures\templateDimCoreName_dim_dimRpName_Synchronize_Step1_GetSKs_usp.sql" />
+    <Build Include="dimensionRPSchema\Stored Procedures\templateDimCoreName_dim_dimRpName_Synchronize_Step2_Update_usp.sql" />
   </ItemGroup>
 </Project>
