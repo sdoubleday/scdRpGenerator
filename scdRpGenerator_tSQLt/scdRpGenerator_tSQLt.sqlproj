@@ -755,9 +755,7 @@
     <Build Include="tSQLt\User Defined Types\AssertStringTable.sql" />
     <Build Include="Security\tSQLt.sql" />
     <Build Include="Security\TestHelpers.sql" />
-    <Build Include="TestHelpers\Stored Procedures\DataBuilder_templateSchema_templateDimCoreName_dimSrc_stg.sql" />
-    <Build Include="TestHelpers\Stored Procedures\DataBuilder_templateSchema_templateDimCoreName_predim_prep.sql" />
-    <Build Include="TestHelpers\Stored Procedures\DataBuilder_templateSchema_Dim_templateDimCoreName.sql" />
+    <Build Include="TestHelpers\Stored Procedures\DataBuilder_dimensionSchema_Dim_templateDimCoreName.sql" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assemblies\tSQLtCLR.dll" />
