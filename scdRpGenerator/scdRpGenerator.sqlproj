@@ -56,6 +56,10 @@
   <Import Condition="'$(SQLDBExtensionsRefPath)' == ''" Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v$(VisualStudioVersion)\SSDT\Microsoft.Data.Tools.Schema.SqlTasks.targets" />
   <ItemGroup>
     <Folder Include="Properties" />
+    <Folder Include="Security" />
+    <Folder Include="dimensionRPSchema" />
+    <Folder Include="dimensionRPSchema\Stored Procedures" />
+    <Folder Include="dimensionRPSchema\Tables" />
   </ItemGroup>
   <ItemGroup>
     <ArtifactReference Include="$(DacPacRootPath)\Extensions\Microsoft\SQLDB\Extensions\SqlServer\130\SqlSchemas\master.dacpac">
@@ -63,5 +67,17 @@
       <SuppressMissingDependenciesErrors>False</SuppressMissingDependenciesErrors>
       <DatabaseVariableLiteralValue>master</DatabaseVariableLiteralValue>
     </ArtifactReference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\scdType6Dimension\scdType6Dimension.sqlproj">
+      <Name>scdType6Dimension</Name>
+      <Project>{ca3004e5-8e69-4fe4-aa79-ede61f7f43a7}</Project>
+      <Private>True</Private>
+      <SuppressMissingDependenciesErrors>False</SuppressMissingDependenciesErrors>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Build Include="Security\dimensionRPSchema.sql" />
+    <Build Include="dimensionRPSchema\Tables\templateDimCoreName_dim_dimRpName.sql" />
   </ItemGroup>
 </Project>
