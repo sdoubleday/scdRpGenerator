@@ -1,4 +1,4 @@
-﻿CREATE TABLE [dimensionRPSchema].[templateDimCoreName_dim_dimRpName]
+﻿CREATE TABLE [dimensionRpSchema].[templateDimCoreName_dim_dimRpName]
 (
 	 [SK_templateDimCoreName] INT NOT NULL
 	,

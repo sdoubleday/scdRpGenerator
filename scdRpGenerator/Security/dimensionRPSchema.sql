@@ -1,1 +1,1 @@
-﻿CREATE SCHEMA [dimensionRPSchema] AUTHORIZATION [dbo];
+﻿CREATE SCHEMA [dimensionRpSchema] AUTHORIZATION [dbo];
