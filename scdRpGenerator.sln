@@ -9,6 +9,8 @@ Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "scdType6Dimension", "scdTyp
 EndProject
 Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "scdRpSourceView", "scdRpSourceView\scdRpSourceView.sqlproj", "{5AF48C0C-B815-4282-B27F-0DBCFFABE019}"
 EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "scdRpGenerator_tSQLt", "scdRpGenerator_tSQLt\scdRpGenerator_tSQLt.sqlproj", "{5128EFDB-2507-4520-8B55-94621C68665C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,12 @@ Global
 		{5AF48C0C-B815-4282-B27F-0DBCFFABE019}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5AF48C0C-B815-4282-B27F-0DBCFFABE019}.Release|Any CPU.Build.0 = Release|Any CPU
 		{5AF48C0C-B815-4282-B27F-0DBCFFABE019}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{5128EFDB-2507-4520-8B55-94621C68665C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5128EFDB-2507-4520-8B55-94621C68665C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5128EFDB-2507-4520-8B55-94621C68665C}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{5128EFDB-2507-4520-8B55-94621C68665C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5128EFDB-2507-4520-8B55-94621C68665C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5128EFDB-2507-4520-8B55-94621C68665C}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

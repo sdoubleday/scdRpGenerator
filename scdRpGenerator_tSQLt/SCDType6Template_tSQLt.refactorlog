@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="13f2575e-c85c-485b-89de-2e2375ff9eca" ChangeDateTime="05/01/2021 15:51:57">
+    <Property Name="ElementName" Value="[TestHelpers].[DataBuilder_templateSchema_templateDimCoreName_dimSrc_stg]" />
+    <Property Name="ElementType" Value="SqlProcedure" />
+    <Property Name="ParentElementName" Value="[TestHelpers]" />
+    <Property Name="ParentElementType" Value="SqlSchema" />
+    <Property Name="NewName" Value="[DataBuilder_StagingSchema_templateDimCoreName_dimSrc_stg]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="8c8fa368-661e-49db-845c-090c03901a46" ChangeDateTime="05/01/2021 18:06:25">
+    <Property Name="ElementName" Value="[TestHelpers].[DataBuilder_templateSchema_Dim_templateDimCoreName]" />
+    <Property Name="ElementType" Value="SqlProcedure" />
+    <Property Name="ParentElementName" Value="[TestHelpers]" />
+    <Property Name="ParentElementType" Value="SqlSchema" />
+    <Property Name="NewName" Value="[DataBuilder_templateSchema_templateDimCoreName_Dim]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="5231ba33-2546-45d4-9e19-4994823beb2f" ChangeDateTime="05/01/2021 18:16:12">
+    <Property Name="ElementName" Value="[TestHelpers].[DataBuilder_templateSchema_templateDimCoreName_Dim]" />
+    <Property Name="ElementType" Value="SqlProcedure" />
+    <Property Name="ParentElementName" Value="[TestHelpers]" />
+    <Property Name="ParentElementType" Value="SqlSchema" />
+    <Property Name="NewName" Value="[DataBuilder_dimensionSchema_templateDimCoreName_Dim]" />
+  </Operation>
+</Operations>
