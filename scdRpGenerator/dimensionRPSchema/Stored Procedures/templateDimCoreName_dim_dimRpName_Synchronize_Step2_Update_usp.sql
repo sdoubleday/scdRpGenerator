@@ -2,7 +2,7 @@
 AS
 UPDATE [d]
 SET
- [d].[dimRpName_SampleColumnOne_Cur] = [v].[SampleColumnOne_Cur]	/*DimensionAttribute_ReplacementPoint|SampleColumnOne_Cur|AND*/
+ [d].[dimRpName_SampleColumnOne_Cur] = [v].[SampleColumnOne_Cur]	/*DimensionAttribute_ReplacementPoint|SampleColumnOne_Cur|,*/
 ,[d].[dimRpName_SampleColumnTwo_Hist] = [v].[SampleColumnTwo_Hist]	/*Sample*/
 FROM [dimensionRpSchema].[templateDimCoreName_dim_dimRpName] AS [d]
 INNER JOIN [dimensionRpSrcSchema].[templateDimCoreName_RP_dimRpName_dimRpSrc_vw] AS [v]
