@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="6375b568-04d6-4026-9282-192aab416418" ChangeDateTime="06/10/2021 17:19:07">
+    <Property Name="ElementName" Value="[dimensionRpSrcSchema].[templateDimCoreName_RP_rolePlayName_dimRpSrc_vw]" />
+    <Property Name="ElementType" Value="SqlView" />
+    <Property Name="ParentElementName" Value="[dimensionRpSrcSchema]" />
+    <Property Name="ParentElementType" Value="SqlSchema" />
+    <Property Name="NewName" Value="[templateDimCoreName_RP_dimRpName_dimRpSrc_vw]" />
+  </Operation>
+</Operations>

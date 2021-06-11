@@ -89,4 +89,7 @@
     <Build Include="dimensionRPSchema\Stored Procedures\templateDimCoreName_dim_dimRpName_Synchronize_Step1_GetSKs_usp.sql" />
     <Build Include="dimensionRPSchema\Stored Procedures\templateDimCoreName_dim_dimRpName_Synchronize_Step2_Update_usp.sql" />
   </ItemGroup>
+  <ItemGroup>
+    <RefactorLog Include="scdRpGenerator.refactorlog" />
+  </ItemGroup>
 </Project>

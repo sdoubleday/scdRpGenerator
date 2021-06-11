@@ -127,6 +127,10 @@
     <Folder Include="Security\" />
     <Folder Include="TestHelpers" />
     <Folder Include="TestHelpers\Stored Procedures" />
+    <Folder Include="dimensionRpSchema__templateDimCoreName_dim_dimRpName_Synchronize_Step1_GetSKs_usp\" />
+    <Folder Include="dimensionRpSchema__templateDimCoreName_dim_dimRpName_Synchronize_Step1_GetSKs_usp\Stored Procedures" />
+    <Folder Include="dimensionRpSchema__templateDimCoreName_dim_dimRpName_Synchronize_Step2_Update_usp\" />
+    <Folder Include="dimensionRpSchema__templateDimCoreName_dim_dimRpName_Synchronize_Step2_Update_usp\Stored Procedures" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="tSQLt\Tables\Private_NullCellTable.sql">
@@ -755,7 +759,11 @@
     <Build Include="tSQLt\User Defined Types\AssertStringTable.sql" />
     <Build Include="Security\tSQLt.sql" />
     <Build Include="Security\TestHelpers.sql" />
-    <Build Include="TestHelpers\Stored Procedures\DataBuilder_dimensionSchema_Dim_templateDimCoreName.sql" />
+    <Build Include="TestHelpers\Stored Procedures\DataBuilder_dimensionSchema_templateDimCoreName_Dim.sql" />
+    <Build Include="Security\dimensionRpSchema__templateDimCoreName_dim_dimRpName_Synchronize_Step1_GetSKs_usp.sql" />
+    <Build Include="dimensionRpSchema__templateDimCoreName_dim_dimRpName_Synchronize_Step1_GetSKs_usp\Stored Procedures\test Only New SKs Added.sql" />
+    <Build Include="Security\dimensionRpSchema__templateDimCoreName_dim_dimRpName_Synchronize_Step2_Update_usp.sql" />
+    <Build Include="dimensionRpSchema__templateDimCoreName_dim_dimRpName_Synchronize_Step2_Update_usp\Stored Procedures\test Update All Columns.sql" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assemblies\tSQLtCLR.dll" />

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="5be3ec18-0046-431b-9296-fd5ac23e28b8" ChangeDateTime="06/10/2021 18:02:28">
+    <Property Name="ElementName" Value="[dimensionRpSchema].[templateDimCoreName_dim_dimRpName].[SampleColumnTwo_Hist]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dimensionRpSchema].[templateDimCoreName_dim_dimRpName]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="[dimRpName_SampleColumnTwo_Hist]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="a70f4560-717c-45d5-a832-ee5c9365a0d7" ChangeDateTime="06/10/2021 18:02:45">
+    <Property Name="ElementName" Value="[dimensionRpSchema].[templateDimCoreName_dim_dimRpName].[SampleColumnOne_Cur]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dimensionRpSchema].[templateDimCoreName_dim_dimRpName]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="[dimRpName_SampleColumnOne_Cur]" />
+  </Operation>
+</Operations>

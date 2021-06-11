@@ -68,7 +68,7 @@
   </ItemGroup>
   <ItemGroup>
     <Build Include="Security\dimensionRpSrcSchema.sql" />
-    <Build Include="dimensionRpSrcSchema\templateDimCoreName_RP_rolePlayName_dimRpSrc_vw.sql" />
+    <Build Include="dimensionRpSrcSchema\templateDimCoreName_RP_dimRpName_dimRpSrc_vw.sql" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\scdType6Dimension\scdType6Dimension.sqlproj">
@@ -77,5 +77,8 @@
       <Private>True</Private>
       <SuppressMissingDependenciesErrors>False</SuppressMissingDependenciesErrors>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <RefactorLog Include="scdRpSourceView.refactorlog" />
   </ItemGroup>
 </Project>
