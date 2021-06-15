@@ -63,7 +63,9 @@ namespace GenerateSCDType6Files
 
             foreach (String file in templateFiles)
             {
-                TransformRpFileInFlight(templateDimCoreName, parsedArgs.SCDType6DimensionDirectory, parsedArgs.OutputDirectory, parsedArgs.DimensionSchema, parsedArgs.dimensionRpSrcSchema, StagingSchema, lineProcessorConfigDim, file, dimRpName);
+                string targetDirectory = TemplatePathIfFocus(dimRpName, parsedArgs.SCDType6DimensionDirectory);
+                Console.WriteLine(targetDirectory);
+                TransformRpFileInFlight(templateDimCoreName, targetDirectory, parsedArgs.OutputDirectory, parsedArgs.DimensionSchema, parsedArgs.dimensionRpSrcSchema, StagingSchema, lineProcessorConfigDim, file, dimRpName);
             }
         }
 
@@ -115,6 +117,17 @@ namespace GenerateSCDType6Files
         {
             return col.Name.ToString().Split('.')[2].Replace("[", "").Replace("]", "");
             //This parses the [schema].[object].[column] format that we get back
+        }
+
+        public static string TemplatePathIfFocus (string dimRpName, string targetDirectory)
+        {
+            string returnable = targetDirectory;
+            //If the dimRpName is Focus or Core, we will use a copy of the template that does NOT prepend each COLUMN name with dimRpName.
+            if(dimRpName == "Focus" || dimRpName == "Core")
+            {
+                returnable = targetDirectory.Replace("..\\scdRpGenerator", "..\\scdFocusGenerator");
+            }
+            return returnable;
         }
     }
 }
