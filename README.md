@@ -2,7 +2,7 @@
 Write a view with a subset of your dimension columns, generate a roleplaying dimension table with this.
 
 ## Run the Generator
-.\GenerateSCDRpFiles\bin\Debug\net5.0\GenerateSCDRpFiles.exe <relative path to dacpac> <Output directory> <schema where role play dimensions will live> <dimensionRpSrcSchema>
+.\GenerateSCDRpFiles\bin\Debug\net5.0\GenerateSCDRpFiles.exe \<relative path to dacpac\> \<Output directory\> \<schema where role play dimensions will live\> \<dimensionRpSrcSchema\>
 
 ## Prepare views
 - Replace in View schema, name, SK column name, and FROM table name:
