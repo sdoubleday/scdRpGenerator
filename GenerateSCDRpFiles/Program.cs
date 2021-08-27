@@ -125,7 +125,7 @@ namespace GenerateSCDType6Files
             //If the dimRpName is Focus or Core, we will use a copy of the template that does NOT prepend each COLUMN name with dimRpName.
             if(dimRpName == "Focus" || dimRpName == "Core")
             {
-                returnable = targetDirectory.Replace("..\\scdRpGenerator", "..\\scdFocusGenerator");
+                returnable = targetDirectory.Replace("\\scdRpGenerator", "\\scdFocusGenerator");
             }
             return returnable;
         }

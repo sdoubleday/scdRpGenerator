@@ -10,4 +10,15 @@
     <PackageReference Include="SqlTemplateColumnExpander" Version="1.0.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ContentWithTargetPath Include="..\scdFocusGenerator\**\*.sql">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>%(RecursiveDir)\%(Filename)%(Extension)</TargetPath>
+    </ContentWithTargetPath>
+    <ContentWithTargetPath Include="..\scdRpGenerator\**\*.sql">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>%(RecursiveDir)\%(Filename)%(Extension)</TargetPath>
+    </ContentWithTargetPath>
+  </ItemGroup>
+
 </Project>
