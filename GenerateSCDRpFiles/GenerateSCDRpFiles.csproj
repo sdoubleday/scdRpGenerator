@@ -13,11 +13,11 @@
   <ItemGroup>
     <ContentWithTargetPath Include="..\scdFocusGenerator\**\*.sql">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-      <TargetPath>%(RecursiveDir)\%(Filename)%(Extension)</TargetPath>
+      <TargetPath>scdFocusGenerator\%(RecursiveDir)\%(Filename)%(Extension)</TargetPath>
     </ContentWithTargetPath>
     <ContentWithTargetPath Include="..\scdRpGenerator\**\*.sql">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-      <TargetPath>%(RecursiveDir)\%(Filename)%(Extension)</TargetPath>
+      <TargetPath>scdRpGenerator\%(RecursiveDir)\%(Filename)%(Extension)</TargetPath>
     </ContentWithTargetPath>
   </ItemGroup>
 
